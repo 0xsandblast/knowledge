@@ -1,6 +1,6 @@
 # Introduction
 ## Table of contents
-\[...\]
+\[Soon\]
 
 ## IT (security) Knowledge Base
 This repository aims to list about everything I learned in general purposes IT, with a focus on security. It contains both academical and personnal projects as I give them the same importance, and I try to be as exhaustive as concise when describing them. Also, I strongly believe that the best way to ensure the comprehension of a subject is to teach it.
@@ -8,12 +8,12 @@ This repository aims to list about everything I learned in general purposes IT, 
 ## The big Why
 I got into computers firstly because my father is an IT engineer himself, and I have somehow been in it progressively since I was at middle school. What I like the most about computers is the boundless realm of possibilities which leaves room for creativity and resolution of inctricate problems within this relatively nascent yet highly contemporary virtual world.
 
-## Academics
+# Academics
 Please find below a summary of all the subjects I had the opportunity to study in my academic career. I would like to point out that each subject listed has been studied in depth, unless explicitly stated. Courses generally begin with a historical context. 
 
 _Note: For reasons of confidentiality and out of respect for the professors, I do not publish my projects publicly. Please contact me so that I can share these projects with you. Thank you._
 
-### Networks & Security
+## Networks & Security
 - **Cisco CCNA**:
   - Networking Essentials
     - Models, equipment, protocols, addressing
@@ -26,7 +26,7 @@ _Note: For reasons of confidentiality and out of respect for the professors, I d
   - Configuration on physical devices, mostly Cisco firewalls
     - These labs were particularly interesting as we had to configure the equipments from scratch and manually interconnect computers with the firewall, define routes and implement different security measures.
    
-### Cryptography
+## Cryptography
 - **Symmetric**:
   - Old techniques (substitution, transposition)
   - Stream cipher (PRNG, LFSR)
@@ -43,7 +43,7 @@ _Note: For reasons of confidentiality and out of respect for the professors, I d
   - Transfering from today's to tomorrow's techniques
   - Using quantum ressources vs using quantum algorithms
 
-### Intrusion Detection & Prevention
+## Intrusion Detection & Prevention
 - **Tools**:
   - Apache Splunk, ELK (Elastic Search, Kibana, Logstash), SNORT, Suricata
 - **Techniques**:
@@ -52,7 +52,7 @@ _Note: For reasons of confidentiality and out of respect for the professors, I d
 - **Cyber Threat Intelligence**:
   - Understanding and qualifying threats
 
-### Reverse-engineering & Virology 
+## Reverse-engineering & Virology 
 - **x86** Architecture and _ad hoc_ Assembly Language
 - Stack and heap **memory management**
 - **Static and dynamic analysis** (mainly with Ghidra, and Windows' Sysinternals suite for reconnaissance phase)
@@ -62,13 +62,14 @@ _Note: For reasons of confidentiality and out of respect for the professors, I d
   - Reversing known malwares' techniques 
   - Real-life situtation : full analysis of an infected machine, decryption and deletion of the malware (ask for full report and scripts)  
 
-### Privacy & Multimedia content delivery protection
+## Privacy & Multimedia content delivery protection
 
-### Operating Systems
+## Operating Systems
 - Low level Memory management and Process scheduling
-- Programming parts of an OS: unixv6 
+- Programming parts of an OS: ![unixv6](https://github.com/bringhurst/xv6)
+- Working with ![RISC-V](https://riscv.org/), an open standard instruction set architecture based on RISC principles
 
-### System Programmation
+## System Programmation
 
 
 
