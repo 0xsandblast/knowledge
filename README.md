@@ -63,14 +63,23 @@ _Note: For reasons of confidentiality and out of respect for the professors, I d
   - Real-life situtation : full analysis of an infected machine, decryption and deletion of the malware (ask for full report and scripts)  
 
 ## Privacy & Multimedia content delivery protection
+-**Intellectual property**:
+  - Digital watermarking (LSB, Scalar Quantification, Spectrum Spreading, ECC)
+  - Identifying attacks on watermarks (anti-piracy techniques)
+- **Privacy**:
+  - Partition-Based Model Approach (k-anonimity, l-diversity)
+  - Differencial Privacy (Laplace mechanism) 
 
 ## Operating Systems
-- Low level Memory management and Process scheduling
+- Low level **Memory management** and **Process scheduling**
 - Interruptions, Synchronization
 - Programming parts of an OS: ![unixv6](https://github.com/bringhurst/xv6)
 - Working with ![RISC-V](https://riscv.org/), an open standard instruction set architecture based on RISC principles
 
 ## System Programmation
-
-
+- **C and C++**
+- **Threads, processes**
+- Files handling, pipes, sockets
+- Synchronization: locks, mutex
+- **DevOps**: CI/CD, Terraform
 
