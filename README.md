@@ -79,12 +79,16 @@ _Note: For reasons of confidentiality and out of respect for the professors, I d
 - **Privacy**:
   - Partition-Based Model Approach (k-anonimity, l-diversity)
   - Differencial Privacy (Laplace mechanism) 
+- **Law**:
+  - GDPR (main principles, authorities, control and sanctions, PIA, IS securization, DPO functions)
+  - Intellectual property on AI productions
+  - Threats towards e-reputation
 
 ## Operating Systems
 - Low level **Memory management** and **Process scheduling**
 - Interruptions, Synchronization
-- Programming parts of an OS: ![unixv6](https://github.com/bringhurst/xv6)
-- Working with ![RISC-V](https://riscv.org/), an open standard instruction set architecture based on RISC principles
+- Programming parts of an OS: [unixv6](https://github.com/bringhurst/xv6)
+- Working with [RISC-V](https://riscv.org/), an open standard instruction set architecture based on RISC principles
 
 ## System Programmation
 - **C and C++**
