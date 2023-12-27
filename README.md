@@ -66,6 +66,7 @@ _Note: For reasons of confidentiality and out of respect for the professors, I d
 
 ## Operating Systems
 - Low level Memory management and Process scheduling
+- Interruptions, Synchronization
 - Programming parts of an OS: ![unixv6](https://github.com/bringhurst/xv6)
 - Working with ![RISC-V](https://riscv.org/), an open standard instruction set architecture based on RISC principles
 
