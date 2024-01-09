@@ -16,7 +16,7 @@
 This repository aims to list about everything I learned in general purposes IT, with a focus on security. It contains both academical and personnal projects as I give them the same importance, and I try to be as exhaustive as concise when describing them. Also, I strongly believe that the best way to ensure the comprehension of a subject is to teach it.
 
 ## The big Why
-I got into computers firstly because my father is an IT engineer himself, and I have somehow been in it progressively since I was at middle school. What I like the most about computers is the boundless realm of possibilities which leaves room for creativity and resolution of inctricate problems within this relatively nascent yet highly contemporary virtual world.
+I got into computers firstly because my father is an IT engineer himself, and I have somehow been in it progressively since I was at middle school. What I like the most about computers is the boundless realm of possibilities which leaves room for creativity and resolution of intricate problems within this relatively nascent yet highly contemporary virtual world.
 
 # Academics
 Please find below a summary of all the subjects I had the opportunity to study in my academic career. I would like to point out that each subject listed has been studied in depth, unless explicitly stated. Courses generally begin with a historical context. 
@@ -62,6 +62,11 @@ _Note: For reasons of confidentiality and out of respect for the professors, I d
 - **Cyber Threat Intelligence**:
   - Understanding and qualifying threats
 
+### Projects
+- **Suricata IDS** : establishing signature-based rules and testing in the case of a directory traversal attack
+- Data mining and machine learning with **Orange**, determining behavior-based rules from training dataset
+- **Elastic Suite - ELK** : [in progress]
+
 ## Reverse-engineering & Virology 
 - **x86** Architecture and _ad hoc_ Assembly Language
 - Stack and heap **memory management**
@@ -69,8 +74,10 @@ _Note: For reasons of confidentiality and out of respect for the professors, I d
 - **Malware types**
 - Review of major **APTs, TTPs**: primo-infection, persistance, stealth
 - **Labs**:
-  - Reversing known malwares' techniques 
-  - Real-life situtation : full analysis of an infected machine, decryption and deletion of the malware (ask for full report and scripts)  
+  - Reversing known malwares' techniques (Ghidra)
+
+### Project
+  - Real-life situtation : full analysis of an infected machine, decryption and deletion of the malware (Ghidra, Python) [ask for full report and scripts] 
 
 ## Privacy & Multimedia content delivery protection
 - **Intellectual property**:
@@ -84,11 +91,16 @@ _Note: For reasons of confidentiality and out of respect for the professors, I d
   - Intellectual property on AI productions
   - Threats towards e-reputation
 
+### Project
+- Study research : finding the most efficient algorithm to watermark and track movie piracy (Python)
+
 ## Operating Systems
 - Low level **Memory management** and **Process scheduling**
 - Interruptions, Synchronization
-- Programming parts of an OS: [unixv6](https://github.com/bringhurst/xv6)
-- Working with [RISC-V](https://riscv.org/), an open standard instruction set architecture based on RISC principles
+
+- **Labs**:
+  - Programming parts of an OS: [unixv6](https://github.com/bringhurst/xv6)
+  - Working with [RISC-V](https://riscv.org/), an open standard instruction set architecture based on RISC principles
 
 ## System Programmation
 - **C and C++**
