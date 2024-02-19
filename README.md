@@ -21,7 +21,7 @@ I got into computers firstly because my father is an IT engineer himself, and I 
 # Academics
 Please find below a summary of all the subjects I had the opportunity to study in my academic career. I would like to point out that each subject listed has been studied in depth, unless explicitly stated. Courses generally begin with a historical context. 
 
-_Note: For reasons of confidentiality and out of respect for the professors, I do not publish my projects publicly. Please contact me so that I can share these projects with you. Thank you._
+_Note: For reasons of confidentiality and out of respect for the professors, I do not publish academic projects publicly. Please contact me so that I can share these projects with you. Thank you._
 
 ## Networks & Security
 - **Cisco CCNA**:
@@ -52,6 +52,7 @@ _Note: For reasons of confidentiality and out of respect for the professors, I d
 - **Post-quantum & quantum** (overview):
   - Transfering from today's to tomorrow's techniques
   - Using quantum ressources vs using quantum algorithms
+- Physical Attacks : Correlation Power Analysis (CPA) with Pearson coefficient; Differential Fault Analysis (DFA) with Piret-Quisquater and NUEVA. 
 
 ## Intrusion Detection & Prevention
 - **Tools**:
@@ -72,12 +73,14 @@ _Note: For reasons of confidentiality and out of respect for the professors, I d
 - Stack and heap **memory management**
 - **Static and dynamic analysis** (mainly with Ghidra, and Windows' Sysinternals suite for reconnaissance phase)
 - **Malware types**
+- **Android** Virology : application architecture, composants, syscalls, deployment. Reversing (apktool, ByteCodeViewer, etc.), anti-reversing techniques. 
 - Review of major **APTs, TTPs**: primo-infection, persistance, stealth
 - **Labs**:
   - Reversing known malwares' techniques (Ghidra)
 
-### Project
-  - Real-life situtation : full analysis of an infected machine, decryption and deletion of the malware (Ghidra, Python) [ask for full report and scripts] 
+### Projects
+  - Real-life situtation : full analysis of an infected machine, decryption and deletion of the malware (Ghidra, Python). Ask for full report and scripts. 
+  - **Andoid** [in progress ...] - reversing a malware
 
 ## Privacy & Multimedia content delivery protection
 - **Intellectual property**:
@@ -108,4 +111,28 @@ _Note: For reasons of confidentiality and out of respect for the professors, I d
 - Files handling, pipes, sockets
 - Synchronization: locks, mutex
 - **DevOps**: CI/CD, Terraform
+
+## Memory-based attacks
+- **Buffer Overflow**, stack analysis, payload and shellcode conception
+- **Format String**
+
+### Project
+- Real-life scenario setting : investigating a company that has been breached examining the code source, executables, and network traces of a vulnerable component in an application server and replaying attacks (BOF & FS). Ask for final oral support.
+
+## Distributed Systems
+- Blockchain
+- Distributed Algorithms
+- Distributed Computing, Synchronization
+
+### Lab
+- Deploying Bitcoin instances within a Regtest network, using *[Bitcoin-core](https://bitcoin.org/en/bitcoin-core/)*.
+
+## Audit and pentest
+- **Active Directory** : Environment (machines, domains, groups), Authentication (LDAP, Kerberos, NTLM), GPO. 
+  - Lab : enumeration, compromising AD accounts, servers, networks, privilege escalation. Tools : Mimikatz, Impacket, ldapsearch, Enum4linux, Metasploit, etc. Ask for pentest report.
+- **AWS** : Cloud architecture (systems and networks), pentesting theory and practice in [HackTheBox's Hailstorm lab](https://www.hackthebox.com/business/professional-labs/cloud-labs-blacksky). Ask for pentest report.  
+### CTFs
+*Oragnized by companies specifically for our student group.*
+- **Airbus** "*Avionics*" : Simulating a real-world black-box audit on a specialized Real-Time Operating System designed for embedded applications. Involves techniques like jailing, reverse engineering, key recovery using timing attacks.
+- **Wavestone** : Jeopardy-style CTF, categories : PWN, Web, Programmation, Forensics
 
