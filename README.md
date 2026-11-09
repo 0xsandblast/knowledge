@@ -98,6 +98,7 @@ _Note: For reasons of confidentiality and out of respect for the professors, I d
 - Study research : finding the most efficient algorithm to watermark and track movie piracy (Python)
 
 ## Operating Systems
+*This was most likely the deepest lesson of the year: this domain is extremely dense but just as interesting. We covered architectural principles and details, as well as the hardware and security components that make up an operating system.*
 - Low level **Memory management** and **Process scheduling**
 - Interruptions, Synchronization
 
